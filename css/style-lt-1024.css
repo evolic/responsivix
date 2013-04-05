@@ -18,12 +18,6 @@
     background: none;
 }
 
-#header nav ul li a span.main {
-    color: #eee;
-}
-#header nav ul li a:hover span.main {
-    color: #ccc;
-}
 #header nav ul li a span.description {
     color: #ccc;
 }

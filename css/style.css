@@ -70,6 +70,13 @@ canvas {
 #header > nav {
 	margin: 0 0px 15px;
 }
+#header nav ul li a span.main {
+    color: #bdf32c;
+}
+#header nav ul li a:hover span.main {
+    color: #9bc724;
+}
+
 #content {
 	min-height: 150px;
 	background-color: #888;
