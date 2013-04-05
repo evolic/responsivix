@@ -16,7 +16,7 @@ canvas {
   width: 50%;
   bottom: 10px;
   left: 25%;
-  background-color: #fff;
+  background-color: #ddd;
   color: #333;
   z-index: 100;
 }

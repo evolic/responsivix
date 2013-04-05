@@ -24,9 +24,6 @@ function loadCanvas() {
     ctx.save();
   
     //body.onmousemove = function (event) {
-    //body.onload = function (event) {
-      console.log('onload');
-  
       var width = window.innerWidth, 
           height = window.innerHeight, 
   //        x = width / 2,
@@ -49,6 +46,7 @@ function loadCanvas() {
       grad.addColorStop(0, '#000');
       grad.addColorStop(1, ['rgb(', Math.ceil(xc/2), ', ', Math.ceil((255 - xc)/2), ', ', Math.ceil(yc/2), ')'].join(''));
       div.innerHTML += '&nbsp;&nbsp;&nbsp;&nbsp;'+'rgb('+ Math.ceil(xc)+ ', '+ Math.ceil((255 - xc)/2)+ ', '+ Math.ceil(yc*3/4)+ ')';
+      div.innerHTML += '&nbsp;&nbsp;&nbsp;&nbsp;'+'width: '+width+', height: '+height;
       // ctx.restore();
       ctx.fillStyle = grad;
       ctx.fillRect(0,0,600,600);
