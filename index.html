@@ -1,0 +1,60 @@
+<?php $time = time(); ?>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset=utf-8 />
+  <title>Canvas Gradient</title>
+  <!-- BluePrint Framework CSS -->
+  <link rel="stylesheet" href="/css/bp/screen.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/bp/print.css" type="text/css" media="print" />
+  <!--[if lt IE 8]><link rel="stylesheet" href="/css/bp/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+  <!-- CSS style -->
+  <link rel="stylesheet" type="text/css" href="/css/general.css?<?php echo $time; ?>" />
+  <link rel="stylesheet" type="text/css" href="/css/style.css?<?php echo $time; ?>" />
+  <link rel="stylesheet" type="text/css" href="/css/homepage.css?<?php echo $time; ?>" />
+  <link rel='stylesheet' media='screen and (min-width: 480px) and (max-width: 639px)' href='css/style-lt-480.css' />
+  <link rel='stylesheet' media='screen and (min-width: 640px) and (max-width: 799px)' href='css/style-lt-640.css' />
+  <link rel='stylesheet' media='screen and (min-width: 800px) and (max-width: 853px)' href='css/style-lt-800.css' />
+  <link rel='stylesheet' media='screen and (min-width: 854px) and (max-width: 1023px)' href='css/style-lt-854.css' />
+  <link rel='stylesheet' media='screen and (min-width: 1024px) and (max-width: 1199px)' href='css/style-lt-1024.css' />
+  <link rel='stylesheet' media='screen and (min-width: 1200px)' href='css/style-lt-1200.css' />
+  <!-- JavaScript -->
+  <script type="text/javascript" src="/js/homepage.js?<?php echo $time; ?>"></script>
+</head>
+<body onload="loadCanvas();">
+  <canvas height="600" width="600"></canvas>
+  <div id="top-menu" class="ct">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sitemap</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Purchase</a></li>
+        <li><a href="#">Sign in</a></li>
+      </ul>
+      <div class="cb"></div>
+    </nav>
+  </div>
+  <div id="header">
+    <nav class="first">
+      <ul>
+        <li><a href="#"><span class="main">Product</span><span class="description">about cms</span></a></li>
+        <li><a href="#"><span class="main">Support</span><span class="description">product support</span></a></li>
+        <li><a href="#"><span class="main">Company</span><span class="description">about our company</span></a></li>
+      </ul>
+      <div class="cb"></div>
+    </nav>
+    <div class="second cb"></div>
+    <div class="third"></div>
+    <div class="fourth hide"></div>
+    <div class="fifth hide"></div>
+  </div>
+  <div id="content">
+  
+  </div>
+  <div id="cursor"></div>
+  <a href="http://github.com/remy/html5demos">
+    <img style="position: absolute; top: 0; left: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" alt="Fork me on GitHub" />
+  </a>
+</body>
+</html>

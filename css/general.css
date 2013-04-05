@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+/* general */
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.cl {
+    clear: left;
+}
+.cb {
+    clear: both;
+}
+
+.center {
+    text-align: center;
+}
+.u {
+    text-decoration: underline;
+}
+
+.hide {
+	display: none;
+}

@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+
+#header .first, #header .second, #header .third, #header .fourth, #header .fifth {
+    background-color: Navy;
+}
+
+.ct, #header {
+    width: 970px;
+}
+#content {
+    width: 950px;
+}
+
+#header {
+    background: none;
+}
+#header nav.first {
+    background: none;
+}
+
+#header nav ul li a span.main {
+    color: #eee;
+}
+#header nav ul li a:hover span.main {
+    color: #ccc;
+}
+#header nav ul li a span.description {
+    color: #ccc;
+}
+#header nav ul li a:hover span.description {
+    color: #999;
+}
