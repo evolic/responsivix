@@ -28,12 +28,12 @@
     display: block;
 }
 #header nav ul li a span.main {
-    color: #aaa;
+    color: #bdf32c;
     font-size: 130%;
     font-weight: bold;
 }
 #header nav ul li a:hover span.main {
-    color: #ccc;
+    color: #9bc724;
 }
 #header nav ul li a span.description {
     color: #888;
