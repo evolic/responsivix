@@ -1,14 +1,15 @@
 @CHARSET "UTF-8";
 
+#header div.first {
+    height: auto;
+}
 #header ul.nav {
     float: right;
-    display: block;
-    width: 420px;
-    height: 150px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 #header ul.nav li.last {
     border-right: none;
+}
+
+#header .second, #header .third, #header .fourth, #header .fifth {
+    background-color: #87cefa;
 }

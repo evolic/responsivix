@@ -38,7 +38,7 @@ canvas {
 }
 #top-menu ul {
 	list-style: none;
-	height: 25px;
+	height: 20px;
 	margin: 0;
 	padding: 10px 10px 10px 25px;
 }
@@ -58,17 +58,6 @@ canvas {
 #top-menu ul li a:hover {
     color: #eee;
     text-decoration: underline;
-}
-
-#header {
-
-}
-#header > div {
-	height: 20px;
-	margin: 0 0px 15px;
-}
-#header > nav {
-	margin: 0 0px 15px;
 }
 
 #content {

@@ -1,6 +1,6 @@
 @CHARSET "UTF-8";
 
-#header .first, #header .second, #header .third, #header .fourth, #header .fifth {
+#header .second, #header .third, #header .fourth, #header .fifth {
     background-color: orange;
 }
 
@@ -9,6 +9,10 @@
 }
 #content {
     width: 730px;
+}
+
+#top-menu ul {
+    height: 35px;
 }
 
 #header {
