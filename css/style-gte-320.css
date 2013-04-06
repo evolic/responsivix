@@ -30,6 +30,8 @@
 }
 #header nav ul, #header ul.nav {
     width: 250px;
+    height: 40px;
+    margin: 20px 0 0;
 }
 #header nav ul li, #header ul.nav li {
     margin: 5px 5px 5px 0px;
