@@ -14,3 +14,7 @@
     float: right;
     margin-right: 25px;
 }
+
+#header .first, #header .second, #header .third, #header .fourth, #header .fifth {
+    background-color: #87cefa;
+}
