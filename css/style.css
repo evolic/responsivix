@@ -1,7 +1,7 @@
 @CHARSET "UTF-8";
 
 body {
-  background: #000;
+  background: #263749;
 }
 canvas {
   z-index: 10;
@@ -36,32 +36,32 @@ canvas {
 	color: #fff;
 	font-weight: bold;
 }
-#top-menu nav ul {
+#top-menu ul {
 	list-style: none;
 	height: 25px;
 	margin: 0;
 	padding: 10px 10px 10px 25px;
 }
-#top-menu nav ul li {
+#top-menu ul li {
 	display: inline-block;
     margin-right: 15px;
 }
-#top-menu nav ul li:last-child {
+#top-menu ul li:last-child {
 	float: right;
     margin-right: 25px;
 }
-#top-menu nav ul li a, #top-menu nav ul li a:visited {
+#top-menu ul li a, #top-menu nav ul li a:visited {
     color: #fff;
     text-decoration: none;
 }
 
-#top-menu nav ul li a:hover {
+#top-menu ul li a:hover {
     color: #eee;
     text-decoration: underline;
 }
 
 #header {
-	background-color: #ddd;
+
 }
 #header > div {
 	height: 20px;
@@ -77,3 +77,11 @@ canvas {
 }
 
 
+
+a.fork img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 0;
+	z-index: 50;
+}

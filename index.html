@@ -11,7 +11,9 @@
   <!-- CSS style -->
   <link rel="stylesheet" type="text/css" href="css/general.css?<?php echo $time; ?>" />
   <link rel="stylesheet" type="text/css" href="css/style.css?<?php echo $time; ?>" />
+  <!--[if IE 8]><link rel="stylesheet" href="css/style.ie.css?<?php echo $time; ?>" type="text/css" media="screen, projection" /><![endif]-->
   <link rel="stylesheet" type="text/css" href="css/homepage.css?<?php echo $time; ?>" />
+  <!--[if IE 8]><link rel="stylesheet" href="css/homepage.ie.css?<?php echo $time; ?>" type="text/css" media="screen, projection" /><![endif]-->
   <link rel='stylesheet' media='screen and (min-width: 480px) and (max-width: 639px)' href='css/style-lt-480.css' />
   <link rel='stylesheet' media='screen and (min-width: 640px) and (max-width: 799px)' href='css/style-lt-640.css' />
   <link rel='stylesheet' media='screen and (min-width: 800px) and (max-width: 853px)' href='css/style-lt-800.css' />
@@ -30,17 +32,17 @@
         <li><a href="#">Sitemap</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">Purchase</a></li>
-        <li><a href="#">Sign in</a></li>
+        <li class="last"><a href="#">Sign in</a></li>
       </ul>
       <div class="cb"></div>
     </nav>
   </div>
   <div id="header">
     <nav class="first">
-      <ul>
+      <ul class="nav">
         <li><a href="#"><span class="main">Product</span><span class="description">about cms</span></a></li>
         <li><a href="#"><span class="main">Support</span><span class="description">product support</span></a></li>
-        <li><a href="#"><span class="main">Company</span><span class="description">about our company</span></a></li>
+        <li class="last"><a href="#"><span class="main">Company</span><span class="description">about our company</span></a></li>
       </ul>
       <div class="cb"></div>
     </nav>
@@ -53,8 +55,8 @@
   
   </div>
   <div id="cursor"></div>
-  <a href="http://github.com/remy/html5demos">
-    <img style="position: absolute; top: 0; left: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" alt="Fork me on GitHub" />
+  <a href="http://github.com/evolic/responsivix" class="fork">
+    <img src="http://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" alt="Fork me on GitHub" />
   </a>
 </body>
 </html>

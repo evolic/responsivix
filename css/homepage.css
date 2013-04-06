@@ -11,35 +11,35 @@
     margin: 0;
     padding: 0;
 }
-#header nav ul li {
+#header ul.nav li {
 	display: block;
 	float: left;
     margin: 15px 10px 15px 0px;
     padding: 0px 20px;
     border-right: 1px solid #888;
 }
-#header nav ul li:last-child {
+#header ul.nav li:last-child {
 	border-right: none;
 }
-#header nav ul li a, #header nav ul li a:visited {
+#header ul.nav li a, #header nav ul li a:visited {
     text-decoration: none;
 }
-#header nav ul li a span {
+#header ul.nav li a span {
     display: block;
 }
-#header nav ul li a span.main {
+#header ul.nav li a span.main {
     color: #bdf32c;
     font-size: 130%;
     font-weight: bold;
 }
-#header nav ul li a:hover span.main {
+#header ul.nav li a:hover span.main {
     color: #9bc724;
 }
-#header nav ul li a span.description {
-    color: #888;
-}
-#header nav ul li a:hover span.description {
+#header ul.nav li a span.description {
     color: #aaa;
+}
+#header ul.nav li a:hover span.description {
+    color: #ddd;
 }
 
 #content {
