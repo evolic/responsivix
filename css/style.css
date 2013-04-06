@@ -44,11 +44,21 @@ canvas {
 }
 #top-menu ul li {
 	display: inline-block;
-    margin-right: 15px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #ddd;
+}
+#top-menu ul li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
 }
 #top-menu ul li:last-child {
 	float: right;
     margin-right: 25px;
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
 }
 #top-menu ul li a, #top-menu nav ul li a:visited {
     color: #fff;
