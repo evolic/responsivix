@@ -23,11 +23,12 @@ Supported browsers
 * Firefox 3.6+
 * Opera 9.6+
 * Safari
+* Internet Explorer 8
 
 
 Not supported browsers
 --------------------------------
-* Internet Explorer 8
+* Internet Explorer 6
 
 
 Demo
