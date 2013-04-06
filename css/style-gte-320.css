@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+#header .second, #header .third, #header .fourth, #header .fifth {
+    background-color: Cornsilk;
+}
+
+.ct, #header {
+    width: 270px;
+}
+#content {
+    width: 250px;
+}
+
+#top-menu ul li {
+    margin-left: 5px;
+    padding-left: 5px;
+}
+#top-menu ul li:first-child {
+    margin-right: 10px;
+}
+#top-menu ul li:last-child {
+    margin-right: 10px;
+}
+
+#header {
+    background: none;
+}
+#header nav.first {
+    background: none;
+}
+#header nav ul, #header ul.nav {
+    width: 250px;
+}
+#header nav ul li, #header ul.nav li {
+    margin: 5px 5px 5px 0px;
+    padding: 0px 10px;
+}
+#header ul.nav li a span.main {
+    font-size: 100%;
+    font-weight: bold;
+}
+#header nav ul li a span.description {
+    display: none;
+}
+

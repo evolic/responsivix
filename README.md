@@ -16,6 +16,7 @@ Supported screens
 * 800x600
 * 640x480
 * 480x854 (e.g. Motorola Milestone, portrait)
+* 320x240 (e.g. Motorola Flipout)
 
 
 Supported browsers
